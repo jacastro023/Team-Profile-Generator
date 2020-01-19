@@ -44,7 +44,7 @@ function appMenu() {
                 name: "managerEmail",
                 message: "what is your manager's email",
                 validate: answer => {
-                    const pass = answer.match(/\s+@\s+\.\s+/);
+                    const pass = answer.match(/\S+@\S+\.\S+/);
                     if (pass) {
                         return true;
                     }
@@ -133,7 +133,7 @@ function appMenu() {
                 name: "engineerEmail",
                 message: "what is your engineer's email?",
                 validate: answer => {
-                    const pass = answer.match(/\s+@\s+\.\s+/);
+                    const pass = answer.match(/\S+@\S+\.\S+/);
                     if (pass) {
                         return true;
                     }
@@ -193,7 +193,7 @@ function appMenu() {
                 name: "internEmail",
                 message: "what is your intern's email?",
                 validate: answer => {
-                    const pass = answer.match(/\s+@\s+\.\s+/);
+                    const pass = answer.match(/\S+@\S+\.\S+/);
                     if (pass) {
                         return true;
                     }
