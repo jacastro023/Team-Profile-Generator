@@ -68,8 +68,6 @@ function appMenu() {
             teamMembers.push(manager);
             idArray.push(answers.managerId);
             createTeam();
-            console.log(manager);
-
         })
     }
 
