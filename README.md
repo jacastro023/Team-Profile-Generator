@@ -36,3 +36,16 @@
 * Getting the right information to the right places in the terminals would sometimes also be a problem because i would not send the right information to the right place resulting in the final html not making sense since instead of the id it would show the email or email instead of phonenumber.
 
 
+## Usage Images
+   In this image we see that the app passed all the tests:
+* ![Image description](images/tests.png)
+   Next we see how an email is required, and we also see that the team.html file is empty:
+* ![Image description](images/email.png)
+   Now we show that there is a dropdown option for adding more employees:
+* ![Image description](images/dropdown.png)
+   For this I am only adding two extra workers and selecting the option to not add anymore:
+* ![Image description](images/3.png)
+   This next image shows that the team.html filled once the app ended:
+* ![Image description](images/team.png)
+   This last image shows how the team.html file looks in the browser:
+* ![Image description](images/final.png)
